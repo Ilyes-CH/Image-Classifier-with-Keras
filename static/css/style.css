@@ -1,0 +1,14 @@
+
+.gradient-bar {
+    height: 100%;
+    background: linear-gradient(90deg, red, yellow, orange, green);
+    border-radius: 15px;
+    animation: progress-animation 2s linear ;
+}
+
+@keyframes progress-animation {
+    0% {
+        width: 0%;
+    }
+    
+}
